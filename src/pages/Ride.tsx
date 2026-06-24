@@ -1,6 +1,6 @@
 // src/pages/Ride.tsx
 import { Link } from 'react-router-dom';
-import { Bike, Mountain, Clock, MapPin, Award, Users } from 'lucide-react';
+import { Bike, Mountain, Clock, Award } from 'lucide-react';
 
 export default function Ride() {
   return (

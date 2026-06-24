@@ -1,7 +1,6 @@
 // src/pages/BookNow.tsx
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Send, Clock, Calendar, Users, Bike, CheckCircle } from 'lucide-react';
+import { Send, Clock, Bike, CheckCircle } from 'lucide-react';
 
 export default function BookNow() {
   const [formData, setFormData] = useState({
