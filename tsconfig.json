@@ -18,7 +18,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "ignoreDeprecations": "6.0"   // ← THIS LINE IS THE FIX
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
